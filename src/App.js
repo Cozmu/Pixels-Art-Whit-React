@@ -56,7 +56,10 @@ function App() {
   };
 
   const clearTable = () => {
-
+    const clearPixel = document.getElementsByClassName('pixel');
+    for (let index = 0; index < clearPixel.length; index += 1) {
+      clearPixel[index].style.backgroundColor = 'white';
+    }
   };
 
   useEffect(() => {
@@ -104,6 +107,12 @@ function App() {
         <article
           className="color-palette"
         >
+          <button
+            type="button"
+            className="color"
+            style={ { backgroundColor: 'white' } }
+            onClick={ selectedColor }
+          />
           <button
             type="button"
             className="color"
