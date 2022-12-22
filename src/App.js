@@ -49,7 +49,10 @@ function App() {
 
   const selectedColor = ({ target: { style: { backgroundColor } } }) => {
     setTargetColor(backgroundColor);
-    console.log(targetColor);
+  };
+
+  const brush = ({ target: { style } }) => {
+    style.backgroundColor = targetColor;
   };
 
   useEffect(() => {
@@ -115,7 +118,7 @@ function App() {
           {tableDisplay.map((e) => (
             <button
               type="button"
-              // onClick={ brush }
+              onClick={ brush }
               className="pixel"
               key={ e }
             />
