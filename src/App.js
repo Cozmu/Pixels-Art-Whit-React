@@ -27,7 +27,13 @@ function App() {
 
   const generateTable = () => {
     const FIVE = 5;
+    const FORTY = 40;
     const fakeArr = [];
+    if ((tableSize !== '' && tableSize > FORTY)
+    || (tableSize !== '' && tableSize < 1)) {
+      setTableSize('');
+      return global.alert('Valores maiores que 40 ou menores que 1 não são suportados');
+    }
     if (tableSize === '') {
       for (let index = 1; index <= (FIVE * FIVE); index += 1) {
         fakeArr.push(index);
@@ -38,6 +44,7 @@ function App() {
     }
     setGridColumn(tableSize);
     setTableDisplay(fakeArr);
+    setTableSize('');
   };
 
   const selectedColor = ({ target: { style: { backgroundColor } } }) => {
@@ -106,7 +113,9 @@ function App() {
           className="table-container"
         >
           {tableDisplay.map((e) => (
-            <div
+            <button
+              type="button"
+              // onClick={ brush }
               className="pixel"
               key={ e }
             />
