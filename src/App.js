@@ -68,6 +68,13 @@ function App() {
     <main>
       <header className="header-container">
         <h1>Paleta de Cores</h1>
+        <section className="cor-atual-container">
+          <h3>Cor Atual:</h3>
+          <div
+            style={ { backgroundColor: targetColor } }
+            className="pixel"
+          />
+        </section>
       </header>
       <section className="conteudo">
         <div className="form-container">
