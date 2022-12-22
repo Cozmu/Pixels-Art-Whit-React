@@ -55,7 +55,7 @@ function App() {
     style.backgroundColor = targetColor;
   };
 
-  const clearTable = () => {
+  const clearTable = () => { // Não soube usar outro metodo infelizmente
     const clearPixel = document.getElementsByClassName('pixel');
     for (let index = 0; index < clearPixel.length; index += 1) {
       clearPixel[index].style.backgroundColor = 'white';
