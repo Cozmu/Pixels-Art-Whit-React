@@ -1,6 +1,6 @@
 # Sejam Bem-vindo ao projeto Pixels Art com React!! 🤩 🖌️
 
-#### Esse projeto tem como objetivo propor uma tela de pixel arte onde o usuário pode selecionar uma das cores disponiveis no quadro e pintar a tela do modo que desejar, tendo também as opções de limpar a tela e escolher o tamanho da mesma. Além de ter uma paleta de cores aleátoria disponivél toda vez que e recarregado a página. Já havia feito esse projeto com Java Script Vanilla mas decidi recria-lo com React.
+#### Esse projeto tem como objetivo propor um quadro de pixel arte onde o usuário pode selecionar uma das cores disponiveis na paleta e pintar o quadro do modo que desejar, tendo também as opções de limpar o quadro é escolher o tamanho do mesmo. Além de ter uma paleta de cores aleátoria disponivél toda vez que é recarregado a página. Já havia feito esse projeto com Java Script Vanilla mas decidi recria-lo com React.
 
 <div style="margin-top:15px">
   <img alt="exibição do projeto" src="cap.png">
@@ -27,7 +27,7 @@
 - Possível escolher o tamanho do quadro.
 - Possivel observar cor atual que está pintando.
 - Possível escolher entre 5 cores onde 3 são aleatórias toda vez que é carregado a página.
-- Possível limpar o quadro para a cor padrao (branco).
+- Possível limpar o quadro para a cor padrão (branco).
 
 ## Também disponível em:
 
