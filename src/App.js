@@ -55,6 +55,10 @@ function App() {
     style.backgroundColor = targetColor;
   };
 
+  const clearTable = () => {
+
+  };
+
   useEffect(() => {
     generateColor();
     generateTable();
@@ -81,6 +85,13 @@ function App() {
             onClick={ generateTable }
           >
             APLICAR
+          </button>
+          <button
+            className="btn-clear"
+            type="button"
+            onClick={ clearTable }
+          >
+            LIMPAR
           </button>
         </div>
         <article
