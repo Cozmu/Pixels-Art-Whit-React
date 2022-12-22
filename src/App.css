@@ -1,0 +1,84 @@
+.header-container {
+  width: 100%;
+  text-align: center;
+  background-color: #2B3467;
+  padding: 5px;
+  color: white;
+}
+
+.conteudo {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 15px;
+  height: 94.2vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.form-container {
+  padding: 15px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.form-container input {
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  padding: 5px;
+  width: 450px;
+  font-size: medium;
+}
+
+.form-container button {
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.color-palette {
+  display: flex;
+  gap: 5px;
+  width: 90%;
+  justify-content: center;
+  background-color: #EB455F;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.color {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.table-container {
+  display: grid;
+  grid-template-columns: repeat(5, 40px);
+  gap: 3px;
+  margin: auto;
+  justify-content: center;
+  padding: 25px;
+}
+
+.pixel {
+  border: 1px solid black;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  background-color: white;
+}
+
