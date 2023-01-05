@@ -30,7 +30,6 @@
 - Execute o comando para instalar dependências: `npm install`.
 - Para incializar execute o comando: `npm start`.
 
-
 ## Também disponível em:
 
 ### <a href="https://pixels-art-whit-react-80ahwhj6c-cozmu.vercel.app/" ><b>Pixels Art Com React</b></a>
