@@ -15,6 +15,14 @@
   <li>React</li>
 </ul>
 
+## Funcionalidades:
+
+- Possível escolher o tamanho do quadro.
+- Possivel observar cor atual que está pintando.
+- Possível escolher entre 5 cores onde 3 são aleatórias toda vez que é carregado a página.
+- Possível limpar o quadro para a cor padrão (branco).
+
+
 ## Como executar:
 
 - Clone em seu computador (via SHH).
@@ -22,12 +30,6 @@
 - Execute o comando para instalar dependências: `npm install`.
 - Para incializar execute o comando: `npm start`.
 
-## Funcionalidades:
-
-- Possível escolher o tamanho do quadro.
-- Possivel observar cor atual que está pintando.
-- Possível escolher entre 5 cores onde 3 são aleatórias toda vez que é carregado a página.
-- Possível limpar o quadro para a cor padrão (branco).
 
 ## Também disponível em:
 
